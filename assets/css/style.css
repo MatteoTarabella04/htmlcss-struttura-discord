@@ -1,9 +1,10 @@
 /* Reset */
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 /* /Reset */
 
 .container {
@@ -29,20 +30,30 @@
     padding: 0.5rem;
 }
 
-.debug #nav > .container {
+.debug #nav>.container {
     height: 2rem;
     padding: 0.25rem;
     align-items: center;
     background-color: orange;
 }
 
+nav {
+    justify-content: center;
+}
+
+.links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
 .logo {
     width: 25%;
 }
 
-.links {
+.navbar {
     width: 50%;
-    justify-content: space-evenly;
+
 }
 
 .login {
@@ -56,13 +67,14 @@
     padding: 2rem;
 }
 
-.debug #sec-intro > .container {
+.debug #sec-intro>.container {
     height: 100%;
     width: 50%;
-    background-color: violet ;
+    background-color: violet;
 }
 
-.debug #sec-1, #sec-3 {
+.debug #sec-1,
+#sec-3 {
     height: 500px;
     background-color: white;
 }
@@ -82,7 +94,10 @@
     padding: 0.5rem 0 2rem 0;
 }
 
-#sec-1, #sec-2, #sec-3, #sec-4 {
+#sec-1,
+#sec-2,
+#sec-3,
+#sec-4 {
     padding: 2.5rem;
 }
 
@@ -95,47 +110,47 @@
     background-color: pink;
 }
 
-.debug #sec-4 > .container {
+.debug #sec-4>.container {
     background-color: green;
 }
 
-.debug .container  .img {
+.debug .container .img {
     width: 60%;
 }
 
-.debug .container  .desc {
+.debug .container .desc {
     width: 40%;
 }
 
-.debug section[id^="sec"] > .container{
+.debug section[id^="sec"]>.container {
     height: 100%;
 }
 
-.debug #app-footer > #foot-top {
+.debug #app-footer>#foot-top {
     height: 550px;
     background-color: black;
 }
 
-.debug #foot-top > .container {
+.debug #foot-top>.container {
     height: 100%;
     border: 2px dashed white;
     background-color: salmon;
     justify-content: flex-end;
 }
- 
-.debug div[class^="col"]{
+
+.debug div[class^="col"] {
     border: 1px dashed white;
     height: 100%;
     width: 17%;
     background-color: lightseagreen;
 }
 
-.debug #app-footer > #foot-bottom {
+.debug #app-footer>#foot-bottom {
     height: 70px;
     background-color: black;
 }
 
-.debug #foot-bottom > .container {
+.debug #foot-bottom>.container {
     height: 80%;
     padding: 0.5rem;
     border: 2px dashed white;
@@ -155,18 +170,3 @@
 #foot-bottom {
     align-items: flex-end;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
