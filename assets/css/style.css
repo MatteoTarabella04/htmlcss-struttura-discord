@@ -16,6 +16,13 @@
     border: 2px dashed black;
 }
 
+.debug #foot-top > .container {
+    height: 100%;
+    border: 2px dashed white;
+    background-color: salmon;
+    justify-content: flex-end;
+}
+
 .flex {
     display: flex;
 }
@@ -23,6 +30,15 @@
 .debug #app-header {
     height: 3rem;
     background-color: cyan;
+}
+
+.debug #app-footer {
+    height: 700px;
+    background-color: black;
+}
+
+.debug #nav {
+    padding: 0.5rem;
 }
 
 .debug #nav > .container {
@@ -33,7 +49,7 @@
 }
 
 .debug #sec-intro {
-    height: 350px;
+    height: 400px;
     background-color: blue;
     padding: 2rem;
 }
@@ -53,14 +69,15 @@
     background-color: lightgray;
 }
 
+.debug #foot-top {
+    height: 100%;
+    padding: 0.5rem 0 2rem 0;
+}
+
 .debug #sec-intro > .container {
     height: 100%;
     width: 50%;
     background-color: violet ;
-}
-
-.debug #nav {
-    padding: 0.5rem;
 }
 
 .logo {
@@ -105,6 +122,13 @@
 
 .debug section[id^="sec"] > .container{
     height: 100%;
+}
+ 
+.debug div[class^="col"]{
+    border: 1px dashed white;
+    height: 100%;
+    width: 15%;
+    background-color: lightseagreen;
 }
 
 
