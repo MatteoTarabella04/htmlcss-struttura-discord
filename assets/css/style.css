@@ -10,6 +10,11 @@
     display: flex;
     width: 70%;
     margin: 0 auto;
+    border: 2px dashed black;
+}
+
+.flex {
+    display: flex;
 }
 
 .debug #app-header {
@@ -41,8 +46,30 @@
 
 .debug .nav > .flex-container {
     height: 2rem;
+    padding: 0.25rem;
+    align-items: center;
     background-color: orange;
 }
+
+.logo {
+    width: 25%;
+    align-items: center;
+}
+
+.links {
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.login {
+    width: 25%;
+    justify-content: flex-end;
+}
+
+
+
+
+
 
 
 
