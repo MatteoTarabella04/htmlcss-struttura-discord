@@ -16,13 +16,6 @@
     border: 2px dashed black;
 }
 
-.debug #foot-top > .container {
-    height: 100%;
-    border: 2px dashed white;
-    background-color: salmon;
-    justify-content: flex-end;
-}
-
 .flex {
     display: flex;
 }
@@ -30,11 +23,6 @@
 .debug #app-header {
     height: 3rem;
     background-color: cyan;
-}
-
-.debug #app-footer {
-    height: 700px;
-    background-color: black;
 }
 
 .debug #nav {
@@ -48,10 +36,30 @@
     background-color: orange;
 }
 
+.logo {
+    width: 25%;
+}
+
+.links {
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.login {
+    width: 25%;
+    justify-content: flex-end;
+}
+
 .debug #sec-intro {
     height: 400px;
     background-color: blue;
     padding: 2rem;
+}
+
+.debug #sec-intro > .container {
+    height: 100%;
+    width: 50%;
+    background-color: violet ;
 }
 
 .debug #sec-1, #sec-3 {
@@ -72,27 +80,6 @@
 .debug #foot-top {
     height: 100%;
     padding: 0.5rem 0 2rem 0;
-}
-
-.debug #sec-intro > .container {
-    height: 100%;
-    width: 50%;
-    background-color: violet ;
-}
-
-.logo {
-    width: 25%;
-    align-items: center;
-}
-
-.links {
-    width: 50%;
-    justify-content: space-evenly;
-}
-
-.login {
-    width: 25%;
-    justify-content: flex-end;
 }
 
 #sec-1, #sec-2, #sec-3, #sec-4 {
@@ -123,12 +110,50 @@
 .debug section[id^="sec"] > .container{
     height: 100%;
 }
+
+.debug #app-footer > #foot-top {
+    height: 550px;
+    background-color: black;
+}
+
+.debug #foot-top > .container {
+    height: 100%;
+    border: 2px dashed white;
+    background-color: salmon;
+    justify-content: flex-end;
+}
  
 .debug div[class^="col"]{
     border: 1px dashed white;
     height: 100%;
-    width: 15%;
+    width: 17%;
     background-color: lightseagreen;
+}
+
+.debug #app-footer > #foot-bottom {
+    height: 70px;
+    background-color: black;
+}
+
+.debug #foot-bottom > .container {
+    height: 80%;
+    padding: 0.5rem;
+    border: 2px dashed white;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+.foot-logo {
+    width: 50%;
+}
+
+.foot-button {
+    width: 50%;
+    justify-content: flex-end;
+}
+
+#foot-bottom {
+    align-items: flex-end;
 }
 
 
