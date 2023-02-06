@@ -10,6 +10,9 @@
 
     width: 70%;
     margin: 0 auto;
+}
+
+.debug .container {
     border: 2px dashed black;
 }
 
@@ -19,7 +22,7 @@
 
 .debug #app-header {
     height: 3rem;
-    background-color: rgb(163, 253, 253);
+    background-color: cyan;
 }
 
 .debug #nav > .container {
@@ -42,7 +45,12 @@
 
 .debug #sec-2 {
     height: 500px;
-    background-color: grey;
+    background-color: lightgray;
+}
+
+.debug #sec-4 {
+    height: 800px;
+    background-color: lightgray;
 }
 
 .debug #sec-intro > .container {
@@ -70,7 +78,7 @@
     justify-content: flex-end;
 }
 
-#sec-1, #sec-2, #sec-3 {
+#sec-1, #sec-2, #sec-3, #sec-4 {
     padding: 2.5rem;
 }
 
@@ -83,8 +91,8 @@
     background-color: pink;
 }
 
-#sec-1 > .container {
-    height: 100%;
+.debug #sec-4 > .container {
+    background-color: green;
 }
 
 .debug .container  .img {
@@ -95,13 +103,10 @@
     width: 40%;
 }
 
-#sec-2 > .container {
+.debug section[id^="sec"] > .container{
     height: 100%;
 }
 
-#sec-3 > .container {
-    height: 100%;
-}
 
 
 
