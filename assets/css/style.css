@@ -22,6 +22,13 @@
     background-color: rgb(163, 253, 253);
 }
 
+.debug .nav > .flex-container {
+    height: 2rem;
+    padding: 0.25rem;
+    align-items: center;
+    background-color: orange;
+}
+
 .debug .sec-intro {
     height: 350px;
     background-color: blue;
@@ -33,22 +40,19 @@
     background-color: white;
 }
 
+.debug .sec-2 {
+    height: 500px;
+    background-color: grey;
+}
+
 .debug .sec-intro > .flex-container {
     height: 100%;
     width: 50%;
-    background-color: pink ;
-
+    background-color: violet ;
 }
 
 .debug .nav {
     padding: 0.5rem;
-}
-
-.debug .nav > .flex-container {
-    height: 2rem;
-    padding: 0.25rem;
-    align-items: center;
-    background-color: orange;
 }
 
 .logo {
@@ -65,6 +69,29 @@
     width: 25%;
     justify-content: flex-end;
 }
+
+.sec-1, .sec-2 {
+    padding: 2.5rem;
+}
+
+.sec-1 > .flex-container {
+    height: 100%;
+}
+
+.debug .flex-container  .img {
+    width: 60%;
+    background-color: cornflowerblue;
+    border-right: 2px dashed black;
+}
+
+.debug .flex-container  .desc {
+    width: 40%;
+    background-color: pink;
+}
+
+
+
+
 
 
 
