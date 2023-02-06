@@ -35,7 +35,7 @@
     padding: 2rem;
 }
 
-.debug .sec-1 {
+.debug .sec-1, .sec-3 {
     height: 500px;
     background-color: white;
 }
@@ -70,8 +70,17 @@
     justify-content: flex-end;
 }
 
-.sec-1, .sec-2 {
+.sec-1, .sec-2, .sec-3 {
     padding: 2.5rem;
+}
+
+.debug .img {
+    background-color: cornflowerblue;
+    border: 2px dashed black;
+}
+
+.debug .desc {
+    background-color: pink;
 }
 
 .sec-1 > .flex-container {
@@ -80,14 +89,21 @@
 
 .debug .flex-container  .img {
     width: 60%;
-    background-color: cornflowerblue;
-    border-right: 2px dashed black;
 }
 
 .debug .flex-container  .desc {
     width: 40%;
-    background-color: pink;
 }
+
+.sec-2 > .flex-container {
+    height: 100%;
+}
+
+.sec-3 > .flex-container {
+    height: 100%;
+}
+
+
 
 
 
