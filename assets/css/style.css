@@ -6,8 +6,8 @@
 }
 /* /Reset */
 
-.flex-container {
-    display: flex;
+.container {
+
     width: 70%;
     margin: 0 auto;
     border: 2px dashed black;
@@ -22,36 +22,36 @@
     background-color: rgb(163, 253, 253);
 }
 
-.debug .nav > .flex-container {
+.debug #nav > .container {
     height: 2rem;
     padding: 0.25rem;
     align-items: center;
     background-color: orange;
 }
 
-.debug .sec-intro {
+.debug #sec-intro {
     height: 350px;
     background-color: blue;
     padding: 2rem;
 }
 
-.debug .sec-1, .sec-3 {
+.debug #sec-1, #sec-3 {
     height: 500px;
     background-color: white;
 }
 
-.debug .sec-2 {
+.debug #sec-2 {
     height: 500px;
     background-color: grey;
 }
 
-.debug .sec-intro > .flex-container {
+.debug #sec-intro > .container {
     height: 100%;
     width: 50%;
     background-color: violet ;
 }
 
-.debug .nav {
+.debug #nav {
     padding: 0.5rem;
 }
 
@@ -70,7 +70,7 @@
     justify-content: flex-end;
 }
 
-.sec-1, .sec-2, .sec-3 {
+#sec-1, #sec-2, #sec-3 {
     padding: 2.5rem;
 }
 
@@ -83,23 +83,23 @@
     background-color: pink;
 }
 
-.sec-1 > .flex-container {
+#sec-1 > .container {
     height: 100%;
 }
 
-.debug .flex-container  .img {
+.debug .container  .img {
     width: 60%;
 }
 
-.debug .flex-container  .desc {
+.debug .container  .desc {
     width: 40%;
 }
 
-.sec-2 > .flex-container {
+#sec-2 > .container {
     height: 100%;
 }
 
-.sec-3 > .flex-container {
+#sec-3 > .container {
     height: 100%;
 }
 
