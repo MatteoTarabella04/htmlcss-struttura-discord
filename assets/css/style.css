@@ -6,3 +6,43 @@
 }
 /* /Reset */
 
+.flex-container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.debug #app-header {
+    height: 3rem;
+    background-color: rgb(163, 253, 253);
+}
+
+.debug .sec-intro {
+    height: 350px;
+    background-color: blue;
+    padding: 2rem;
+}
+
+.debug .sec-1 {
+    height: 500px;
+    background-color: white;
+}
+
+.debug .sec-intro > .flex-container {
+    height: 100%;
+    width: 50%;
+    background-color: pink ;
+
+}
+
+.debug .nav {
+    padding: 0.5rem;
+}
+
+.debug .nav > .flex-container {
+    height: 2rem;
+    background-color: orange;
+}
+
+
+
