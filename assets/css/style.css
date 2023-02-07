@@ -135,14 +135,17 @@ nav {
     height: 100%;
     border: 2px dashed white;
     background-color: salmon;
-    justify-content: flex-end;
 }
 
 .debug div[class^="col"] {
     border: 1px dashed white;
     height: 100%;
-    width: 17%;
+    width: calc(100% / 4);
     background-color: lightseagreen;
+}
+
+.social {
+    width: 35%;
 }
 
 .debug #app-footer>#foot-bottom {
