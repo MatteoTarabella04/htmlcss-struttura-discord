@@ -7,34 +7,117 @@
 
 /* /Reset */
 
-.container {
-
-    width: 70%;
-    margin: 0 auto;
-}
-
-.debug .container {
-    border: 2px dashed black;
-}
-
-.flex {
-    display: flex;
-}
+/* #region Debug */
 
 .debug #app-header {
     height: 3rem;
     background-color: cyan;
 }
 
-.debug #nav {
-    padding: 0.5rem;
+.debug .container {
+    border: 2px dashed black;
 }
 
 .debug #nav>.container {
     height: 2rem;
+    background-color: orange;
+}
+
+.debug #sec-intro {
+    height: 400px;
+    background-color: blue;
+}
+
+.debug #sec-intro>.container {
+    height: 100%;
+    background-color: violet;
+}
+
+.debug #sec-1,
+#sec-3 {
+    height: 500px;
+    background-color: white;
+}
+
+.debug #sec-2 {
+    height: 500px;
+    background-color: lightgray;
+}
+
+.debug #sec-4 {
+    height: 800px;
+    background-color: lightgray;
+}
+
+.debug #foot-top {
+    height: 100%;
+}
+
+.debug .img {
+    background-color: cornflowerblue;
+    border: 2px dashed black;
+}
+
+.debug .desc {
+    background-color: pink;
+}
+
+.debug #sec-4>.container {
+    background-color: green;
+}
+
+.debug #app-footer>#foot-top {
+    height: 550px;
+    background-color: black;
+}
+
+.debug #foot-top>.container {
+    height: 100%;
+    border: 2px dashed white;
+    background-color: salmon;
+}
+
+.debug section[id^="sec"]>.container {
+    height: 100%;
+}
+
+.debug div[class^="col"] {
+    border: 1px dashed white;
+    height: 100%;
+    background-color: lightseagreen;
+}
+
+.debug #app-footer>#foot-bottom {
+    height: 70px;
+    background-color: black;
+}
+
+.debug #foot-bottom>.container {
+    height: 80%;
+    border: 2px dashed white;
+    background-color: aquamarine;
+}
+
+/* #endregion /Debug */
+
+/* #region Utilities */
+.container {
+
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+#nav {
+    padding: 0.5rem;
+}
+
+#nav>.container {
     padding: 0.25rem;
     align-items: center;
-    background-color: orange;
 }
 
 nav {
@@ -61,37 +144,12 @@ nav {
     justify-content: flex-end;
 }
 
-.debug #sec-intro {
-    height: 400px;
-    background-color: blue;
+#sec-intro {
     padding: 2rem;
 }
 
-.debug #sec-intro>.container {
-    height: 100%;
+#sec-intro>.container {
     width: 50%;
-    background-color: violet;
-}
-
-.debug #sec-1,
-#sec-3 {
-    height: 500px;
-    background-color: white;
-}
-
-.debug #sec-2 {
-    height: 500px;
-    background-color: lightgray;
-}
-
-.debug #sec-4 {
-    height: 800px;
-    background-color: lightgray;
-}
-
-.debug #foot-top {
-    height: 100%;
-    padding: 0.5rem 0 2rem 0;
 }
 
 #sec-1,
@@ -101,63 +159,29 @@ nav {
     padding: 2.5rem;
 }
 
-.debug .img {
-    background-color: cornflowerblue;
-    border: 2px dashed black;
-}
-
-.debug .desc {
-    background-color: pink;
-}
-
-.debug #sec-4>.container {
-    background-color: green;
-}
-
-.debug .container .img {
+.container .img {
     width: 60%;
 }
 
-.debug .container .desc {
+.container .desc {
     width: 40%;
 }
 
-.debug section[id^="sec"]>.container {
-    height: 100%;
+#foot-top {
+    padding: 0.5rem 0 2rem 0;
 }
 
-.debug #app-footer>#foot-top {
-    height: 550px;
-    background-color: black;
-}
-
-.debug #foot-top>.container {
-    height: 100%;
-    border: 2px dashed white;
-    background-color: salmon;
-}
-
-.debug div[class^="col"] {
-    border: 1px dashed white;
-    height: 100%;
+div[class^="col"] {
     width: calc(100% / 4);
-    background-color: lightseagreen;
+
 }
 
 .social {
     width: 40%;
 }
 
-.debug #app-footer>#foot-bottom {
-    height: 70px;
-    background-color: black;
-}
-
-.debug #foot-bottom>.container {
-    height: 80%;
+#foot-bottom>.container {
     padding: 0.5rem;
-    border: 2px dashed white;
-    background-color: aquamarine;
     align-items: center;
 }
 
@@ -173,3 +197,5 @@ nav {
 #foot-bottom {
     align-items: flex-end;
 }
+
+/* #endregion /Utilities */
